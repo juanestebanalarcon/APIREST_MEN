@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "d8ab3d65-e551-4e98-8958-3cb1c64ee88a",
+		"name": "APIREST-MEN-TvShows",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:9000/api/tvShows/newTvShow",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"TITANIC\",\r\n  \"year\": 2010,\r\n  \"country\": \"USA\",\r\n  \"summary\": \"Un barco que se hundió.\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:9000/api/tvShows/newTvShow",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"tvShows",
+						"newTvShow"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9000/api/tvShows/read/:id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:9000/api/tvShows/read/626fd491b9cbd83fcc0925db",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"tvShows",
+						"read",
+						"626fd491b9cbd83fcc0925db"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9000/api/tvShows/updateTvShow/:id",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"LOSTED\",\r\n  \"year\": 2003,\r\n  \"country\": \"USA\",\r\n  \"summary\": \"The survivors of a plane crash are forced to live with each other on a remote island.\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:9000/api/tvShows/updateTvShow/626fd491b9cbd83fcc0925db",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"tvShows",
+						"updateTvShow",
+						"626fd491b9cbd83fcc0925db"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9000/api/tvShows/delete/:id",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:9000/api/tvShows/delete/626fd491b9cbd83fcc0925db",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"tvShows",
+						"delete",
+						"626fd491b9cbd83fcc0925db"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

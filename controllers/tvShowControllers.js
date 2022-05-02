@@ -3,6 +3,13 @@ const TvShow=require('../models/tvShows');
 
 //functions:
 const CreateTvShow=async(req,res=response)=>{
+    
+   const {
+  title,
+  year,
+  country,
+  summary
+}=req.body;
     try{
         const tvSh=await TvShow.findOne({title});
         if(tvSh){
@@ -67,4 +74,4 @@ module.exports={
     ReadTvShow,
     updateTvShow,
     deleteTvShow
-}
+}   
