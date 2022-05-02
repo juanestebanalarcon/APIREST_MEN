@@ -1,6 +1,6 @@
 # APIREST MEN
 
-- This is a small APIREST with CRUD operations, you can try with Posman.
+- This is a small APIREST with CRUD operations, you can try it with Posman.
 
 ### Used technologies:
  
