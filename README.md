@@ -7,7 +7,7 @@
 - Node.js
 - Express
 - MongoDB (mongoose)
-
+- Nodemon
 #### Packages:
 
 *    cors
@@ -17,3 +17,10 @@
 *    mongoose
 *    method-override
 *    body-parser
+
+### Commands:
+
+```
+npm start
+npm run dev
+```
