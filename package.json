@@ -1,0 +1,30 @@
+{
+  "name": "api_rest_men",
+  "version": "1.0.0",
+  "description": "APIREST ServiciosTelemáticos2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanestebanalarcon/APIREST_MEN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "mongoose": "^5.11.11",
+    "method-override": "^2.1.2",
+    "body-parser": "^1.5.1"
+  },
+  "bugs": {
+    "url": "https://github.com/juanestebanalarcon/APIREST_MEN/issues"
+  },
+  "homepage": "https://github.com/juanestebanalarcon/APIREST_MEN#readme"
+}
